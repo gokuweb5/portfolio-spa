@@ -3,6 +3,11 @@ import { Github, ExternalLink, X, Play } from 'lucide-react'
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null)
+  
+  // Helper para rutas correctas en producción
+  const getAssetPath = (path) => {
+    return import.meta.env.BASE_URL + path
+  }
   const projects = [
     {
       title: 'Sistema POS y Facturación - Facturamerica.com',
@@ -83,7 +88,7 @@ const Projects = () => {
                 {project.image ? (
                   <>
                     <img 
-                      src={project.image} 
+                      src={getAssetPath(project.image)} 
                       alt={project.title}
                       className="w-full h-full object-cover"
                     />
@@ -167,7 +172,7 @@ const Projects = () => {
               className="w-full h-auto"
               onClick={(e) => e.stopPropagation()}
             >
-              <source src={selectedProject.video} type="video/mp4" />
+              <source src={getAssetPath(selectedProject.video)} type="video/mp4" />
               Tu navegador no soporta el elemento de video.
             </video>
             

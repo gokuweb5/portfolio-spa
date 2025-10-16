@@ -3,6 +3,11 @@ import { Award, X, ExternalLink } from 'lucide-react'
 
 const Certifications = () => {
   const [selectedCert, setSelectedCert] = useState(null)
+  
+  // Helper para rutas correctas en producción
+  const getAssetPath = (path) => {
+    return import.meta.env.BASE_URL + path
+  }
 
   const certifications = [
     {
@@ -109,7 +114,7 @@ const Certifications = () => {
               >
                 <div className="relative h-48 bg-gray-900 overflow-hidden">
                   <img
-                    src={cert.image}
+                    src={getAssetPath(cert.image)}
                     alt={cert.title}
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                     loading="lazy"
@@ -158,7 +163,7 @@ const Certifications = () => {
             
             <div className="bg-gray-900 rounded-lg overflow-hidden">
               <img
-                src={selectedCert.image}
+                src={getAssetPath(selectedCert.image)}
                 alt={selectedCert.title}
                 className="w-full h-auto"
               />
