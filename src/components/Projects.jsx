@@ -16,7 +16,7 @@ const Projects = () => {
       github: 'https://github.com/gokuweb5/punto-ventas-web',
       demo: 'https://facturamerica.com',
       image: 'images/projects/punto-ventas/pos1.png',
-      video: 'images/projects/punto-ventas/project pos1.mp4',
+      video: 'images/projects/punto-ventas/project-punto-de-venta.mp4',
       featured: true
     },
     {
@@ -26,7 +26,7 @@ const Projects = () => {
       github: 'https://github.com/gokuweb5/LicitacionesOH_EN',
       demo: null,
       image: 'images/projects/bidding-system/bidding1.png',
-      video: 'images/projects/bidding-system/project bidding 1.mp4',
+      video: 'images/projects/bidding-system/project-bidding-system.mp4',
       featured: true
     },
     {
