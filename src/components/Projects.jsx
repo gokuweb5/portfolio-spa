@@ -58,12 +58,13 @@ const Projects = () => {
       video: 'images/projects/chess/project-chess.mp4'
     },
     {
-      title: 'Plataforma E-commerce - Deschavetados',
-      description: 'Plataforma de comercio electrónico para YouTubers salvadoreños. Construida con Spring, Bootstrap 4, Thymeleaf, HTML5 y jQuery 3, utilizando MySQL como base de datos.',
-      technologies: ['Spring', 'Bootstrap', 'Thymeleaf', 'MySQL', 'jQuery', 'HTML5'],
+      title: 'Sistema de Licitaciones Legacy - 2012',
+      description: 'Sistema de gestión de licitaciones desarrollado en 2012 con Java 7, utilizando JasperReports para reportería y Microsoft Access como base de datos. Proyecto legacy que demuestra evolución en tecnologías empresariales.',
+      technologies: ['Java 7', 'JasperReports', 'Microsoft Access', 'Swing'],
       github: null,
       demo: null,
-      image: null
+      image: 'images/projects/licitaciones/licitaciones.png',
+      video: 'images/projects/licitaciones/project-licitaciones.mp4'
     }
   ]
 
