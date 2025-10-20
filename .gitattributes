@@ -1,0 +1,10 @@
+# Configuración para GitHub
+# Especificar el idioma principal del repositorio
+*.md linguist-language=Spanish
+*.jsx linguist-language=JavaScript
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+
+# Documentación en español
+README.md linguist-documentation
