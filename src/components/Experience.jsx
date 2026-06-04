@@ -5,16 +5,18 @@ const Experience = () => {
   const experiences = [
     {
       type: 'work',
-      title: 'Full-Stack Developer & Instructor',
-      company: 'Virtual Mentors (Programación y Desarrollo Web)',
+      title: 'Full-Stack Java Developer Independiente',
+      company: 'Virtual Mentors',
       period: 'Enero 2020 - Actual',
-      description: 'Desarrollo de aplicaciones web full-stack y creación de contenido educativo para plataformas de aprendizaje en línea.',
+      description: 'Consultor independiente entregando soluciones de software end-to-end para clientes internacionales y creando contenido educativo técnico.',
       achievements: [
-        'Desarrollé sistema POS y facturación para Facturamerica.com con React, Spring Boot y MySQL',
-        'Creé sistema de licitaciones para la Iglesia de Jesucristo con Spring Boot y JasperReports',
-        'Desarrollé plataforma e-commerce para YouTubers "Deschavetados" con Spring y Thymeleaf',
-        'Creé e impartí curso en Udemy: "Domina JavaScript: Crea una aplicación Fullstack de ajedrez"',
-        'Desarrollé sitio web responsive para E.M.A Auto Repair en Virginia'
+        'Arquitecté y construí Facturamerica.com — plataforma multi-empresa de contabilidad y facturación inteligente con Spring Boot 3.2 (backend) y Angular 18 (frontend) para El Salvador',
+        'Implementé APIs RESTful seguras con Spring Security y JWT, con Spring Data JPA + MyBatis sobre PostgreSQL y Redis para caché distribuido',
+        'Diseñé una UI moderna y responsiva con Angular 18, TypeScript y TailwindCSS optimizando los flujos de facturación y contabilidad',
+        'Desplegado en AWS (RDS, ElastiCache, S3, SES, CloudWatch) usando Docker, con migraciones de BD vía Liquibase y documentación de API con OpenAPI/Swagger',
+        'Construí el sistema interno de licitaciones para La Iglesia de Jesucristo de los Santos de los Últimos Días con Spring Boot 3.2.3, MySQL y JasperReports 6',
+        'Creé e impartí el curso de Udemy "Domina JavaScript: Aplicación Fullstack de Ajedrez" (Node.js, Express, PostgreSQL)',
+        'Entregué el e-commerce Deschavetados (Spring MVC, Thymeleaf, Bootstrap 4) y el sitio responsivo de E.M.A Tire & Auto Repair (Virginia, USA)'
       ]
     },
     {
@@ -48,8 +50,15 @@ const Experience = () => {
   const education = [
     {
       type: 'education',
-      title: 'Java Developer - J2EE Technologies',
-      institution: 'Centre of Excellence for Information Technology India-El Salvador (ITCA)',
+      title: 'Licenciatura en Desarrollo de Software (En curso)',
+      institution: 'Brigham Young University–Idaho',
+      period: '2025 — Graduación proyectada Sep 2027',
+      description: 'Cursando actualmente la Licenciatura en Desarrollo de Software, profundizando en prácticas modernas de ingeniería de software.'
+    },
+    {
+      type: 'education',
+      title: 'Java Developer — Tecnologías J2EE',
+      institution: 'Centre of Excellence for Information Technology India–El Salvador (ITCA)',
       period: 'Octubre 2008',
       description: 'Especialización en desarrollo de aplicaciones empresariales usando tecnologías J2EE. Examen final y proyecto completados exitosamente.'
     },
@@ -62,10 +71,10 @@ const Experience = () => {
     },
     {
       type: 'education',
-      title: 'Formación Continua - Udemy',
-      institution: 'Udemy (2009-2025)',
-      period: '2009 - 2025',
-      description: 'Múltiples certificaciones en tecnologías modernas: Spring Framework 6, Spring Boot 3, React, Angular, JavaFX, y más. Más de 80 horas de formación especializada.'
+      title: 'Formación Continua — Udemy',
+      institution: 'Udemy (2009 — 2025)',
+      period: '2009 — 2025',
+      description: 'Spring Framework 6 & Spring Boot 3 (40.5h), Spring Master Class (14h), Angular & Spring Boot Full Stack (3.5h), JavaFX/Swing & Spring (3.5h), Full Stack con Spring Boot & React (11.5h), y más.'
     }
   ]
 
